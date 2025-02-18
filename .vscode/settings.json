@@ -1,0 +1,41 @@
+{
+  "workbench.preferredDarkColorTheme": "Omni Owl",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
+  "npm.packageManager": "npm",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+  },
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.letterSpacing": 0.4,
+  "editor.lineHeight": 2,
+  "symbols.folders.associations": {
+    "data": "folder-database",
+    "seed": "folder-providers",
+  },
+  "symbols.files.associations": {
+    "seed-data.ts": "database",
+    "*.e2e-spec.ts": "jest",
+    "*.spec.ts": "jest",
+    "*.module.ts": "nest",
+    "*.controller.ts": "nest-controller",
+    "*.service.ts": "nest-service",
+    ".env.development.local": "gear",
+    ".env.example": "gear",
+    ".env.production.local": "gear",
+  },
+  "cSpell.language": "en,pt,pt-BR,es,pt-PT",
+  "cSpell.customDictionaries": {
+    "project-words": {
+      "name": "project-words",
+      "path": "${workspaceRoot}/project-words.txt",
+      "description": "Words used in this project",
+      "addWords": true
+    },
+    "custom": true, // Enable the `custom` dictionary
+    "internal-terms": false // Disable the `internal-terms` dictionary
+  },
+}
