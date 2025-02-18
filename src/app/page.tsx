@@ -1,15 +1,16 @@
-import { ArrowRight } from 'lucide-react'
-import { Button } from './components'
+import { ArrowRight, Copy } from 'lucide-react'
+import { Button, IconButton } from './components'
 
 export default function Home() {
   return (
     <main>
-      <div className='text-white'>Hello world!</div>
-
-      <Button>
-        Enviar
-        <ArrowRight />
+      <Button type='submit'>
+        Enviar <ArrowRight />
       </Button>
+
+      <IconButton>
+        <Copy />
+      </IconButton>
     </main>
   )
 }
