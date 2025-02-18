@@ -1,3 +1,4 @@
+import { ArrowRight } from 'lucide-react'
 import { Button } from './components'
 
 export default function Home() {
@@ -5,9 +6,10 @@ export default function Home() {
     <main>
       <div className='text-white'>Hello world!</div>
 
-      <Button text='Diego' />
-      <Button text='NLW' />
-      <Button />
+      <Button>
+        Enviar
+        <ArrowRight />
+      </Button>
     </main>
   )
 }
