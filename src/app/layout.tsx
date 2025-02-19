@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang='pt-BR' className={`${oxanium.variable} ${montserrat.variable}`}>
-      <body className='bg-gray-900 text-gray-100 antialiased'>{children}</body>
+    <html lang="pt-BR" className={`${oxanium.variable} ${montserrat.variable}`}>
+      <body className="bg-gray-900 text-gray-100 antialiased">{children}</body>
     </html>
   )
 }

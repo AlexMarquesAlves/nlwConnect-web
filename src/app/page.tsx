@@ -10,7 +10,7 @@ import {
 export default function Home() {
   return (
     <main>
-      <Button type='submit'>
+      <Button type="submit">
         Enviar <ArrowRight />
       </Button>
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div>
         <InputRoot>
           <InputIcon>
-            <Mail className='size-5' />
+            <Mail className="size-5" />
           </InputIcon>
           <InputField />
         </InputRoot>
