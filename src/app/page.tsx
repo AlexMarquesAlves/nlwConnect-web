@@ -14,6 +14,7 @@ export default function Home() {
 
       <div>
         <Input type='email' placeholder='Digite seu e-mail' />
+        <Input type='email' placeholder='Digite seu e-mail' error />
       </div>
     </main>
   )
