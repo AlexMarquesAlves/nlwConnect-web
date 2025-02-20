@@ -18,8 +18,10 @@ export default function InvitePage() {
 
         <div className="space-y-6">
           <div className="space-y-3">
-            <h2>Indique e ganhe</h2>
-            <p>
+            <h2 className="text-gray-200 text-xl font-heading font-semibold leading-none">
+              Indique e ganhe
+            </h2>
+            <p className="text-gray-300">
               Convide mais pessoas para o evento e concorra a prêmios
               exclusivos! É só compartilhar o link abaixo e acompanhar as
               inscrições:
