@@ -1,3 +1,5 @@
+import { IconButton, InputField, InputIcon, InputRoot } from '@/components'
+import { Copy, Link } from 'lucide-react'
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
 
@@ -28,6 +30,20 @@ export default function InvitePage() {
             </p>
           </div>
         </div>
+
+        <InputRoot>
+          <InputIcon>
+            <Link className="size-5" />
+          </InputIcon>
+          <InputField
+            readOnly
+            defaultValue={'http://localhost:3000/invite/a87dtasd7hq9dahs'}
+          />
+
+          <IconButton>
+            <Copy className="size-5" />
+          </IconButton>
+        </InputRoot>
       </div>
     </div>
   )
