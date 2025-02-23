@@ -9,7 +9,7 @@ interface InviteLinkInputProps {
 
 export function InviteLinkInput({ inviteLink }: InviteLinkInputProps) {
   function copyInviteLink() {
-    console.log('Hello World')
+    navigator.clipboard.writeText(inviteLink)
   }
 
   return (
