@@ -1,8 +1,6 @@
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
-import { InviteLinkInput } from './InviteLinkInput'
-import { Ranking } from './ranking'
-import { Stats } from './stats'
+import { InviteLinkInput, Ranking, Stats } from './'
 
 export default function InvitePage() {
   return (
