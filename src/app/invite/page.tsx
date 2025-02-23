@@ -1,7 +1,6 @@
-import { IconButton, InputField, InputIcon, InputRoot } from '@/components'
-import { Copy, Link } from 'lucide-react'
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
+import { InviteLinkInput } from './InviteLinkInput'
 import { Ranking } from './ranking'
 import { Stats } from './stats'
 
@@ -33,19 +32,7 @@ export default function InvitePage() {
           </div>
         </div>
 
-        <InputRoot>
-          <InputIcon>
-            <Link className="size-5" />
-          </InputIcon>
-          <InputField
-            readOnly
-            defaultValue={'http://localhost:3000/invite/a87dtasd7hq9dahs'}
-          />
-
-          <IconButton className="-mr-2">
-            <Copy className="size-5" />
-          </IconButton>
-        </InputRoot>
+        <InviteLinkInput />
 
         <Stats />
       </div>
