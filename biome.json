@@ -9,7 +9,8 @@
 		"ignoreUnknown": false,
 		"ignore": [
 			"**/node_modules/**",
-			"**/globals.css"
+			"**/globals.css",
+			"**/http/api.ts"
 		]
 	},
 	"formatter": {

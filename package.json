@@ -6,6 +6,7 @@
     "check": "npx biome check --write src",
     "dev": "next dev --turbopack",
     "build": "next build",
+    "orval": "npx orval",
     "start": "next start",
     "lint": "next lint"
   },
